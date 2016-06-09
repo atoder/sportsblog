@@ -11,6 +11,12 @@ var flash = require('connect-flash');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
+var mongoose = require('mongoose');
+
+// Mongoose Connect
+mongoose.connect('mongodb://localhost/sportsblog');
+var db = mongoose.connection;
+
 var app = express();
 
 // view engine setup

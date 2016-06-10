@@ -1,24 +1,13 @@
 extends layout
 
 block content
-  // Page Header
-  // Set your background image for this header on the line below.
-  header.intro-header(style="background-image: url('images/home-bg.jpg')")
-    .container
-      .row
-        .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
-          .site-heading
-            h1 SportsBlog
-            | &#x9;&#x9;&#x9;&#x9;&#x9;
-            hr.small
-            | &#x9;&#x9;&#x9;&#x9;&#x9;
-            span.subheading A simple and clean sport based blog
+  .spacer
   // Main Content
   .container
     .row
       .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
         .post-preview
-          a(href='post.html')
+          a(href='/articles/show/1')
             h2.post-title
               | Man must explore, and this is exploration at its greatest
             | &#x9;&#x9;&#x9;&#x9;&#x9;
@@ -73,3 +62,7 @@ block content
             |  on July 8, 2014
         | &#x9;&#x9;&#x9;
         hr
+        // Pager
+        ul.pager
+          li.next
+            a(href='#') Older Posts &rarr;

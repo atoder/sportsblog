@@ -5,7 +5,6 @@ router.get('/', function(req, res, next) {
   res.render('articles', {title: 'All Articles'});
 });
 
-
 router.get('/show/:id', function(req, res, next) {
   res.render('article');
 });

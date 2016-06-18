@@ -37,7 +37,7 @@ app.use(session({
   secret: 'randomSecret',
   resave: false,
   saveUninitialized: true,
-  cookie: { secure: true }
+  //cookie: { secure: true }
 }))
 
 // In this example, the formParam value is going to get morphed into form body format useful for printing.

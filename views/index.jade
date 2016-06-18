@@ -1,75 +1,58 @@
 extends layout
 
 block content
-  // Page Header
-  // Set your background image for this header on the line below.
-  header.intro-header(style="background-image: url('images/home-bg.jpg')")
+    header.intro-header(style="background-image: url('/images/home-bg.jpg')")
+      .container
+        .row
+          .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+            .site-heading
+              h1 SportsBlog
+              hr.small
+              span.subheading A simple and clean sports based blog
+    // Main Content
     .container
       .row
         .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
-          .site-heading
-            h1 SportsBlog
-            | &#x9;&#x9;&#x9;&#x9;&#x9;
-            hr.small
-            | &#x9;&#x9;&#x9;&#x9;&#x9;
-            span.subheading A simple and clean sport based blog
-  // Main Content
-  .container
-    .row
-      .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
-        .post-preview
-          a(href='post.html')
-            h2.post-title
-              | Man must explore, and this is exploration at its greatest
-            | &#x9;&#x9;&#x9;&#x9;&#x9;
-            h3.post-subtitle
-              | Problems look mighty small from 150 miles up
-          | &#x9;&#x9;&#x9;&#x9;
-          p.post-meta
-            | Posted by 
-            a(href='#') Start Bootstrap
-            |  on September 24, 2014
-        | &#x9;&#x9;&#x9;
-        hr
-        | &#x9;&#x9;&#x9;
-        .post-preview
-          a(href='post.html')
-            h2.post-title
-              | I believe every human has a finite number of heartbeats. I don&apos;t intend to waste any of mine.
-          | &#x9;&#x9;&#x9;&#x9;
-          p.post-meta
-            | Posted by 
-            a(href='#') Start Bootstrap
-            |  on September 18, 2014
-        | &#x9;&#x9;&#x9;
-        hr
-        | &#x9;&#x9;&#x9;
-        .post-preview
-          a(href='post.html')
-            h2.post-title
-              | Science has not yet mastered prophecy
-            | &#x9;&#x9;&#x9;&#x9;&#x9;
-            h3.post-subtitle
-              | We predict too much for the next year and yet far too little for the next ten.
-          | &#x9;&#x9;&#x9;&#x9;
-          p.post-meta
-            | Posted by 
-            a(href='#') Start Bootstrap
-            |  on August 24, 2014
-        | &#x9;&#x9;&#x9;
-        hr
-        | &#x9;&#x9;&#x9;
-        .post-preview
-          a(href='post.html')
-            h2.post-title
-              | Failure is not an option
-            | &#x9;&#x9;&#x9;&#x9;&#x9;
-            h3.post-subtitle
-              | Many say exploration is part of our destiny, but it&rsquo;s actually our duty to future generations.
-          | &#x9;&#x9;&#x9;&#x9;
-          p.post-meta
-            | Posted by 
-            a(href='#') Start Bootstrap
-            |  on July 8, 2014
-        | &#x9;&#x9;&#x9;
-        hr
+          .post-preview
+            a(href='post.html')
+              h2.post-title
+                | Man must explore, and this is exploration at its greatest
+              h3.post-subtitle
+                | Problems look mighty small from 150 miles up
+            p.post-meta
+              | Posted by 
+              a(href='#') Start Bootstrap
+              |  on September 24, 2014
+          hr
+          .post-preview
+            a(href='post.html')
+              h2.post-title
+                | I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+            p.post-meta
+              | Posted by 
+              a(href='#') Start Bootstrap
+              |  on September 18, 2014
+          hr
+          .post-preview
+            a(href='post.html')
+              h2.post-title
+                | Science has not yet mastered prophecy
+              h3.post-subtitle
+                | We predict too much for the next year and yet far too little for the next ten.
+            p.post-meta
+              | Posted by 
+              a(href='#') Start Bootstrap
+              |  on August 24, 2014
+          hr
+          .post-preview
+            a(href='post.html')
+              h2.post-title
+                | Failure is not an option
+              h3.post-subtitle
+                | Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+            p.post-meta
+              | Posted by 
+              a(href='#') Start Bootstrap
+              |  on July 8, 2014
+          hr
+
